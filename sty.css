@@ -1,0 +1,246 @@
+*{
+    margin-left:10px ;
+    margin-right: 20px; ;
+}
+a{
+    text-decoration: none;
+    color: rgb(174, 174, 174);
+  }
+
+body{
+    background-color: rgb(255, 255, 255);
+  
+}
+.nav-list{
+height:120px;
+width: 1240px;
+margin: 0ch;
+background-color:rgb(255, 255, 255) ;
+display: flex;
+justify-content: end;
+align-items: center;
+
+gap:10;
+}
+.nav-item
+{
+    list-style: none;
+ 
+    font-family:'Lato', sans-serif;;
+}
+.nav-item:first-child{
+    margin-right: auto;
+}
+ 
+
+
+
+
+.prg-title{
+    height:120px;
+width: 1240px;
+margin: 0ch;
+    border-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color:rgb(69, 147, 147);
+    font-size: 30px;
+    font-family:'Lato', sans-serif;;   
+}
+
+
+.cotainer{
+display: flex;
+flex-direction: row;
+margin-left: 100;
+margin-right: 100;
+
+}
+
+#content1{
+    background-color:rgb(255, 255, 255) ;
+    width:1240px ;
+    font-size: 17px;
+    font-family:'Lato', sans-serif;;
+    color: rgb(124, 124, 124) ;
+}
+#content2{
+    background-color:rgb(255, 255, 255) ;
+    width:1240px ;
+    font-size: 17px;
+    font-family:'Lato', sans-serif;;
+    color:  rgb(124, 124, 124);
+    
+}
+
+/*kamel il wa7da mil fou9 billa5der wrod il taswira fill noss wkamel il be9i*/
+
+.continertwo{
+    height:120px;
+    width: 1240px;
+    margin: 0ch;
+        border-color: rgb(13, 84, 31);
+        display: flex;
+        justify-content:center; 
+        align-items:flex-start;
+      margin-top: 80px;  
+      display: flex;
+      padding: 10px 40px 10px;
+      margin-bottom: 250px;
+      gap: 7px; ;
+     
+}
+ /*justify-content: center;
+      align-items: center;*/
+
+.border1{
+    border-radius: 15px;
+    height:350px;
+    width: 350px;
+    background-color: rgb(66 203 184);
+    color: white;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    
+}
+.border2{
+    border-radius: 15px;
+    height:350px;
+    width: 350px;
+    margin: 0ch;
+    background-color: rgb(86 142 227);
+    
+}
+.border3{
+    border-radius: 15px;
+    height:350px;
+    width:350px;
+    background-color:rgb(51 60 74);
+}
+
+.bordertitle{
+    font-size:25px;
+    font-family:'Lato', sans-serif; ;
+    font-style: normal;
+    color: white;
+}
+.borderprg{   
+    font-size:20px;
+    font-family:'Lato', sans-serif;;
+    font-style: normal;
+    color: white;}
+
+
+
+    .continerthree{
+        height:120px;
+        width: 1240px;
+        margin: 0ch;
+            border-color: rgb(52, 45, 45);
+            display:flex;
+            justify-content: space-between;
+            align-items:center;
+            
+           
+    }
+
+
+    .contcontent1{
+        font-size:40px;
+        font-family:'Lato', sans-serif;;
+        color: rgb(66 203 184);
+        margin-left: 100px;
+    }
+   
+    .continerfour{
+        height: 700px;
+        width: 1325px;
+        margin: 0ch;
+     border-color:rgb(0, 255, 255);
+            background-color: rgba(92, 219, 189, 23%);
+    }
+
+    .borderaqua{
+        height: 120px;
+        width: 470px;
+        margin: 0ch;
+        margin-top: 20px;
+        padding: 30 50;
+       
+    
+    }
+.prgtitle222{
+
+color:rgb(51, 153, 153);
+font-size: 40;
+font-family:'Lato', sans-serif;;
+}
+
+
+.prgp222{
+color: rgb(138, 138, 138);
+font-size: 20;
+font-family:'Lato', sans-serif;;
+}
+
+
+.prgimg222{
+display: flex;
+align-items: flex-end ;
+}
+
+
+
+    /*makmelch il aqwa*/
+
+    .prg3{
+        height:100;
+        width: 1240;
+        margin: 0ch;
+        background-color: rgb(254, 254, 254);
+margin-left: 30px;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+    }
+    .titleprg3{
+        margin-top: 60px;
+        font-size:40;
+    font-family:'Lato', sans-serif;;
+    font-style: normal;
+    color: rgb(76, 207 ,177);
+    
+
+
+}
+.prgp3{
+   margin: 0;
+    font-size:20;
+font-family:'Lato', sans-serif;;
+font-style: normal;
+color: rgb(154, 154, 154);
+
+
+
+}
+
+    
+
+
+.ltlborde1{
+display: flex;
+justify-content: end;
+align-items: flex-start;
+    height:400px;
+    width: 610px;
+    margin: 0ch;
+    background-color: rgb(255, 255, 255);
+margin-left: 700;
+
+
+
+
+}
