@@ -1,6 +1,7 @@
 *{
     margin-left:10px ;
-    margin-right: 20px; ;
+    margin-right:20; ;
+    box-sizing: inherit;
 }
 a{
     text-decoration: none;
@@ -12,16 +13,13 @@ body{
   
 }
 .nav-list{
-height:120px;
-width: 1240px;
-margin: 0ch;
+height:60;
+width:100%;
 background-color:rgb(255, 255, 255) ;
 display: flex;
-justify-content: end;
-align-items: center;
-
-gap:10;
-}
+justify-content:space-between;
+padding:0 20 ;
+margin:0   10;}
 .nav-item
 {
     list-style: none;
@@ -83,12 +81,12 @@ margin-right: 100;
         border-color: rgb(13, 84, 31);
         display: flex;
         justify-content:center; 
-        align-items:flex-start;
+       /* align-items:flex-start;*/
       margin-top: 80px;  
       display: flex;
-      padding: 10px 40px 10px;
+      padding: 10px 10 10px 0;
       margin-bottom: 250px;
-      gap: 7px; ;
+      gap: 1px; ;
      
 }
  /*justify-content: center;
@@ -98,7 +96,7 @@ margin-right: 100;
     border-radius: 15px;
     height:350px;
     width: 350px;
-    background-color: rgb(66 203 184);
+    background-color: rgb(25 209 184);
     color: white;
     display: flex;
     justify-content: start;
@@ -109,7 +107,6 @@ margin-right: 100;
     border-radius: 15px;
     height:350px;
     width: 350px;
-    margin: 0ch;
     background-color: rgb(86 142 227);
     
 }
@@ -118,7 +115,20 @@ margin-right: 100;
     height:350px;
     width:350px;
     background-color:rgb(51 60 74);
+
+  
+    
 }
+
+
+ .SALIM select{
+border: 1PX solid transparent;
+background-color:transparent ;
+color: white;
+}
+
+
+
 
 .bordertitle{
     font-size:25px;
@@ -148,10 +158,12 @@ margin-right: 100;
 
 
     .contcontent1{
-        font-size:40px;
+        font-size:24px;
         font-family:'Lato', sans-serif;;
         color: rgb(66 203 184);
-        margin-left: 100px;
+        margin-left: 20px;
+        margin-bottom:20 ;
+        margin-top: 20;
     }
    
     .continerfour{
@@ -162,15 +174,6 @@ margin-right: 100;
             background-color: rgba(92, 219, 189, 23%);
     }
 
-    .borderaqua{
-        height: 120px;
-        width: 470px;
-        margin: 0ch;
-        margin-top: 20px;
-        padding: 30 50;
-       
-    
-    }
 .prgtitle222{
 
 color:rgb(51, 153, 153);
@@ -186,17 +189,14 @@ font-family:'Lato', sans-serif;;
 }
 
 
-.prgimg222{
-display: flex;
-align-items: flex-end ;
-}
+
 
 
 
     /*makmelch il aqwa*/
 
     .prg3{
-        height:100;
+        height:300;
         width: 1240;
         margin: 0ch;
         background-color: rgb(254, 254, 254);
@@ -230,17 +230,208 @@ color: rgb(154, 154, 154);
     
 
 
-.ltlborde1{
+
+
+.rr{
+    display: flex;
+    flex-direction: column  ;
+
+}  border-radius: 15px;
+
+
+.imgs img{
+
+    width: 240;
+    height:160;
+    padding: 20 10 0 10;
+    flex-flow:row ;
+    border-radius: 15px
+    }
+    .smallimgdescription{
+        color: rgb(106, 106, 106);
+        font-size: 20;
+        font-family:'Lato', sans-serif;
+    background-color:rgba(255, 255, 255, 0.42) ;
+    width:300 ;
+    height: 160;
+    display: flex;
+    flex-flow: column;
+    padding: 0 10 0 10;
+    border-radius: 15px;
+    justify-content: end;
+
+   
+    }
+
+
+    
+    .imgs{
+    display: flex;
+    justify-content: center;
+    
+    }
+    
+    .FINPHT {
+        width: 1240;
+        height:280 ;
+        display: flex;
+        margin: 20 20 20 20;
+        justify-content: center;
+        padding: 0 0 10 0;
+    }
+  
+    .DISC{
+        display: flex;
+    
+        justify-content: space-around;
+    }
+   .btn{
+
+    width:90 ;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    font-size:10 ;
+   }
+    /*.btn {
+        display: inline-block;
+        vertical-align: middle;
+        position: relative;
+      
+        border: 0;
+        border-radius: 4px;
+        padding: 1em 1.5em;
+        background: #3d83df;
+        font-family: Roboto,Arial,sans-serif;
+        line-height: 1em;
+        color: #fff;
+        font-weight: 700;
+        letter-spacing: .04em;
+        font-size: .75rem;
+        text-align: center;
+        text-decoration: none!important;
+        text-transform: uppercase;
+        transition: all .2s ease 0s;
+    }
+
+    .office .btn {
+        float: right;
+    }
+
+    btn--small {
+        font-size: .625rem;
+        padding: 1em 1.5em; }*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        .ILBLOCKLKBIR{
+background-color:rgb(213 245 245) ;
+height:450 ;
+width: 1200;
+padding:50 ;
+margin:0 ;
 display: flex;
-justify-content: end;
-align-items: flex-start;
-    height:400px;
-    width: 610px;
-    margin: 0ch;
-    background-color: rgb(255, 255, 255);
-margin-left: 700;
+justify-content: start;
+
+
+        }
 
 
 
+.ILBLOCKLKBIR DIV {
+    color: rgb(0 195 165) ;
+    font-family:'Lato', sans-serif;;
+    font-style: normal;
+    font-size:30 ;
+}
 
+.ILBLOCKLKBIR  {
+    color:rgb(66, 65, 65) ;
+    font-family:'Lato', sans-serif;;
+    font-style: normal;
+    font-size: 15;
+    margin: 10;
+}
+
+
+.BLOX1 div{
+    width:220 ;
+    height:fit-content ;
+    background-color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding:10 10 10 10;
+
+}
+    
+.BLOX1 P{
+display: flex;
+justify-content:center;
+align-items: center;
+
+}
+
+.BOCPRG{
+    color: rgb(0 195 165)  ;
+    font-family:'Lato', sans-serif;
+        font-style: normal;
+        font-size: 30;}
+
+.lgmlsira{
+    color: rgba(0, 0, 0, 0.434);
+    font-size:15;
+}
+
+
+.LEFTBOXS1{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 15;
+}
+
+.LEFTBOXS2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15;
+    }
+
+.LEFTBRODER{
+    display:  flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.RIGHTBORDER{
+    display: flex;
+    FLEX-direction:column ;
+}
+
+.SALMEN{
+display: flex;
+flex-direction: column;
+align-items: center;
+font-size: 15px; ;
+font-family:'Lato', sans-serif;
+        font-style: normal;
+}
+.SALMEN p{
+    display: flex;
+    align-items: center;
+    color: rgb(159, 159, 159);
 }
